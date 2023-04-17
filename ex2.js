@@ -10,8 +10,8 @@ let persona = {
 /**
  * Escribe una instrucción para cambiar la propiedad 'apellidos' de la persona. Queremos cambiar sus apellidos a 'Rudolph'
  */
-
+persona.apellidos = 'Rudolph';
  //Aquí tu instrucción JavaScript
 
  // No modificar a partir de aqui
- console.log(persona.apellidos)
+ console.log(persona.apellidos);

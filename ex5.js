@@ -35,7 +35,9 @@ function buscarPez(banco_peces, pezBuscado) {
     let indicePez = 0
 
     while(!pezEncontrado && indicePez<=banco_peces.length){
-        
+        if(banco_peces[indicePez].nombre === pezBuscado){
+            pezEncontrado = true;
+        }
     }
 
     return pezEncontrado;

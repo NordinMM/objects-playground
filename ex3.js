@@ -6,7 +6,8 @@
      nombre: 'Alba',
      conocimientos: ['Trello', 'Adobe']
  }
-
+estudiante.conocimientos.push('CSS');
+console.log(estudiante);
 /**
  * Alba ha aprendido hace poco a trabajar con CSS. Escribe UNA sentencia JavaScript que modifique la propiedad 'conocimientos'; y añade uno nuevo: 'CSS'
  * 
